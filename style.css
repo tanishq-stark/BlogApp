@@ -1,0 +1,21 @@
+body{
+    background: rgb(58, 4, 112);
+    color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+}
+.card{
+margin-left: 10px;
+margin-bottom: 40px;
+padding: 20px;
+background: rosybrown;
+width: 400px;
+border: white solid;
+}
+
+.card img{
+    width: 100%;
+}
